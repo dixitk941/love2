@@ -5,7 +5,7 @@ body {
   height: 100vh;
   margin: 0;
   background: linear-gradient(to bottom, #ffcccc 0%, #ffb6b6 100%);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Added a fun font */
 }
 
 .container {
