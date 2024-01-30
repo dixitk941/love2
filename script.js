@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
           const message = `Dear ${recipient}, I Love you mere Jaan 🌹💖`;
           displayGreetingCard(message);
       } else {
-          const defaultMessage = "I Love You Mere Jaan 🌹💖";
+          const defaultMessage = "Nhi aa raha setting ka name yaad , Hogi tabhi to ayega";
           displayGreetingCard(defaultMessage);
       }
   }
