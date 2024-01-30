@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #ffcccc 0%, #ffb6b6 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  position: relative;
+}
+
+.heart {
+  width: 100px;
+  height: 90px;
+  background-color: #ff4d4d;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.heart:before,
+.heart:after {
+  content: '';
+  width: 100px;
+  height: 100px;
+  background-color: #ff4d4d;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.heart:before {
+  top: -50px;
+  left: 0;
+}
+
+.heart:after {
+  top: 0;
+  left: 50px;
+}
+
+.heart:hover {
+  background-color: #ff3333;
+  transform: scale(1.1);
+}
+
+.message {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
