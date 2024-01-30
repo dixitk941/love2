@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function showGreetingCardPrompt() {
       const recipient = prompt("Enter the name of your Love:");
       if (recipient) {
-          const message = `Dear ${recipient}, I Love you mere Jaan 🌹💖`;
+          const message = `Dear ${recipient}, I Love you baccha 🌹💖`;
           displayGreetingCard(message);
       } else {
           const defaultMessage = "Nhi aa raha setting ka name yaad , Hogi tabhi to ayega";
